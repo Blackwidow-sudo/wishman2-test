@@ -10,6 +10,9 @@
 	}
 </script>
 
-<div in:fade={inParams} out:fade={outParams}>
+<div
+	class="container mx-auto my-5"
+	in:fade={inParams}
+	out:fade={outParams}>
 	<slot />
 </div>
